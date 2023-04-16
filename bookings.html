@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Adventures</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="contact.html">
+    <link rel="stylesheet" href="home.html">
+    <script src="home.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <header>
+        <h1>Code Adventures</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="bookings.html">Bookings</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+</div>
+    <main>
+        <h1>Bookings</h1>
+        <p>For bookings, Kindly fill in your details in the form below:</p>
+        <form name="myform" action="home.php" method="POST">
+            <label for="name" placeholder="Enter your name">Full Names</label>
+            <input type="text" class="text" name="name" placeholder="Enter Full Name"><br>
+            <br>
+
+            <label for="package">Package</label>
+            <select name="Package">
+    <option value="Local Tours">Local Tours</option>
+    <option value="International Tours">International Tours</option>
+    <option value="Vacation">Vacation</option><br>
+    <option value="Staycations">Staycations</option><br>
+    <option value="Roadtrips">Roadtrips</option><br>
+    <option value="Camping">Camping</option><br>
+    </select><br>
+            <br>
+            <label>Destination</label>
+            <input type="text" class="text" name="Destination" placeholder="Destination"><br>
+            <br>
+            <label for="people">Number of people</label>
+            <input type="number" name="people" class="number" placeholder="Enter the number of people"><br>
+            <br>
+
+            <label for="phone">Phone Number</label>
+            <input type="phone" id="phone" name="phone" placeholder="Enter your phone number"><br>
+            <br>
+            <label for="date">Travel Dates</label>
+            <input type="date" class="date" value="30" name="Travel Dates"><br><br>
+            <button class="btn submit">Book</button>
+
+        </form>
+    </main>
+    <div class="container1">
+        <footer>
+            <p>&#169 2023 Code Adventures.
+            All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+
+</html>
